@@ -16,5 +16,5 @@ jobs:
     - name: Deploy to Firebase
       uses: lowply/deploy-firebase@v0.0.2
       env:
-        FIREBASE_TOKEN: 1//0hCSyGH1USUZ9CgYIARAAGBESNwF-L9IrMD27Jwool497Mf3ruUekgdsJq3aY_2BCD62S1nuX7CdPrtAxq-5ONCT5KPh2O2d6JH8
+        FIREBASE_TOKEN: secrets.FIREBASE
         FIREBASE_PROJECT: fsm-egua
